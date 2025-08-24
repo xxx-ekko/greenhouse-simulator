@@ -3,7 +3,7 @@ const axios = require('axios');
 // --- CONFIGURATION ---
 // 🔑 IMPORTANT: Replace with the API Key of the sensor you want to simulate
 const API_KEY = 'b6d33252d67b5f8583b9a86b6e3d9ce5';
-const API_URL = 'http://localhost:3001/api/measurements';
+const API_URL = 'http://backend:3001/api/measurements';
 const SIMULATION_INTERVAL_MS = 2000; // Send data every 2 seconds
 
 /**
